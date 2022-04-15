@@ -4,7 +4,7 @@ import Home from "./views/Home/Home";
 import { getMenu } from "./data/actions/menu";
 import { getSettings } from "./data/actions/settings";
 import { getHome } from "./data/actions/home";
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter,HashRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   const dispatch = useDispatch();
@@ -16,7 +16,9 @@ function App() {
   }, [dispatch]);
 
   return (
-    <BrowserRouter>
+    // <BrowserRouter>
+    <HashRouter basename={process.env.PUBLIC_URL}>
+
       <div className="bg"></div>
       <div className="App">
         <Switch>
@@ -25,7 +27,9 @@ function App() {
           </Route>
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
+    // </BrowserRouter>
+
   );
 }
 
