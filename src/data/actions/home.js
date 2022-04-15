@@ -1,5 +1,4 @@
-import fetchData from "../api";
-
+// import fetchData from "../api";
 export const getHome = () => async (dispatch) => {
   try {
     // const data = await fetchData("routes");
