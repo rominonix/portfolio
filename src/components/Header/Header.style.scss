@@ -1,8 +1,19 @@
+@import "../../styles/ez/mediaqueries";
+
 .header {
   padding: 1% 0 2%;
   position: sticky;
   top: 0;
   z-index: 2;
+  @include sm {
+    padding: 5% 0 2%;
+    // background-color: aqua;
+    
+  }
+  @include md-phone {
+    padding: 5% 0 2%;
+    // background-color: aquamarine;
+  }
 }
 
 .header.active {
@@ -10,5 +21,14 @@
 }
 
 .logo {
-  width: 50%;
+  width: 3.5em;
+  @include sm {
+    width: 3em;
+    // background-color: aqua;
+    
+  }
+  @include md-phone {
+    width: 3em;
+    // background-color: aquamarine;
+  }
 }
