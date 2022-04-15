@@ -31,7 +31,7 @@ export const getHome = () => async (dispatch) => {
           label: "Beskrivning (textarea)",
           id: 510744,
           value:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed.",
+            "Good, that we continue together on this little trip through my site. Here you can see some of my javascript and typescript projects. They are all different and range from Backend projects such as REST Apis, Frontend, Full Stack in which I also include interface design. You can find projects in vanilla, others with frameworks such as Vue.js, React.js, React-native and other applications with Express, Firebase among others.",
         },
         projectLink: {
           label: "Projects",
@@ -61,7 +61,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512672,
               value:
-                "E-Wallet dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed.",
+                "This is a project written in Javascript and Vue.js. It is a simulation in which you can create and delete different credit cards in a virtual wallet.",
             },
             id: 501198,
           },
@@ -87,7 +87,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512674,
               value:
-                "TrollSkogen dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed.",
+                "As I love the Swedish forest and nothing better than doing a little project in which to make a play on words and take advantage of cheating a little 😎. This is a Backend project with Javascript, Express, SQlite and Faker. Here you can create 10 fake profiles per day for various uses.",
             },
             id: 501201,
           },
@@ -113,7 +113,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512675,
               value:
-                "Beer project dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed.",
+                "Many of us love beers and why not interact with Punki Api to choose a different beer every day. In this project I wrote it in javascript interacting directly with the DOM. Every time you click on the random button, you get a different beer and by clicking on it you can see all its details. Skål 🍻!",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -150,7 +150,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512676,
               value:
-                "Sinus dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elit sit odio quis faucibus consectetur. Mi, amet sed sagittis, neque tellus adipiscing id sed.",
+                "Sinus is a skateboard webshop built in Javascript, Vue.js Vuex. It is a project designed and inspired by the artist and skater The Gonz (Mark Gonzáles).",
             },
             id: 502407,
           },
@@ -165,7 +165,7 @@ export const getHome = () => async (dispatch) => {
           label: "Beskrivning (textarea)",
           id: 502422,
           value:
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate dapibus dolor sed rutrum. Fusce posuere magna eget lectus dictum rutrum. Quisque eget quam vel metus dictum egestas eget sed.",
+            "I'm Romina, Javascript developer, designer and visual artist. For many years my work has moved between design, programming and art projects. During the last two years web development 👩‍💻 has taken the most important role. In the projects section 👆 you can see my featured projects in Javascript. I am Chilean-Swedish, I was born in Santiago and have lived in different countries. I currently live in Stockholm, a wonderful city that has the perfect balance between urban and nature 🌳.",
         },
         aboutImg: {
           label: "romi-portrait",
@@ -366,7 +366,7 @@ export const getHome = () => async (dispatch) => {
           label: "Beskrivning (textarea)",
           id: 511559,
           value:
-            "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+            "Well, here you can contact me if you want us to do a project together, or just write me to say hello and meet for a ☕ or 🍺 and talk about art, design and of course code 🤓.",
         },
         id: 511556,
       },
