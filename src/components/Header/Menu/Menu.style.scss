@@ -1,0 +1,110 @@
+header {
+  nav {
+    .menu-button {
+      position: absolute;
+      border: none;
+      top: 55%;
+      right: 10%;
+      background-color: var(--color-transparent);
+      text-transform: uppercase;
+      font-style: italic;
+      font-size: 1.5rem;
+    
+
+      .circle-animation {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 120px;
+        height: 100px;
+
+        svg {
+          max-width: 80%;
+        }
+      }
+    }
+
+    .top-menu {
+      position: relative;
+      // position: absolute;
+      text-transform: uppercase;
+      font-style: italic;
+      display: flex;
+
+      // .circle-animation {
+      // //    margin: 2% 10%;
+      //     position: absolute;
+      //     top: 50%;
+      //     left: 50%;
+      //     transform: translate(-50%, -50%);
+      //     width: 100px;
+      //     height: 100px;
+
+      //     svg {
+      //         max-width: 100%;
+      //     }
+      // }
+    }
+
+    ul.main-menu {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 3%;
+      justify-content: flex-end;
+      margin-right: 2%;
+      text-transform: lowercase;
+
+      li.main-item {
+        position: relative;
+        // margin-right: 30px;
+        font-size: 1.8rem;
+        font-style: italic;
+
+        // .circle-animation {
+        //   position: absolute;
+        //   top: 50%;
+        //   left: 50%;
+        //   transform: translate(-50%, -50%);
+        //   width: 100px;
+        //   height: 100px;
+
+        //   svg {
+        //     max-width: 100%;
+        //   }
+        // }
+        a {
+          text-decoration: none;
+          color: var(--color-black);
+        }
+
+        &:last-child {
+          margin-right: 50px;
+        }
+
+        &.dropdown {
+          position: relative;
+        }
+
+        &:hover {
+          ul.sub-menu {
+            display: block;
+          }
+        }
+      }
+    }
+
+    ul.sub-menu {
+      position: absolute;
+      list-style-type: none;
+      padding: 10px;
+      margin: 0;
+      display: none;
+      // li.sub-item {
+
+      // }
+    }
+  }
+}

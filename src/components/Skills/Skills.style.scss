@@ -1,0 +1,69 @@
+@import "../../styles/ez/mediaqueries";
+
+.skills {
+  background-color: var(--color-hot-pink);
+  display: grid;
+  @include sm {
+    padding: 4%;
+  }
+}
+
+.skill-title {
+  font-size: 12rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--color-hot-pink-text);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  @include sm {
+    font-size: 9rem;
+  }
+
+  @include md-phone {
+    font-size: 4.5rem;
+  }
+}
+
+.skill-box-icon {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  row-gap: 5%;
+  @include sm {
+    padding: 6%;
+  }
+  @include md-phone {
+    padding: 3%;
+  }
+}
+
+.skills-icons {
+  display: grid;
+  justify-items: center;
+}
+
+.skills-icons p {
+    margin-top: 1%;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-style: italic;
+    
+    
+    @include sm {
+      font-size: 1.5rem;
+      
+    }
+    @include md-phone {
+      font-size: .9rem;
+    }
+}
+
+.icon {
+  width: 40%;
+}
+
+.smooth-scroll {
+  transition: transform 1s cubic-bezier(0.26, 0.18, 0.47, 0.99);
+}

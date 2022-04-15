@@ -1,0 +1,67 @@
+@import '../../styles/ez/mediaqueries';
+
+.contact {
+  background-color: var(--color-sky-blue);
+  padding-bottom: 6%;
+  @include sm {
+    padding: 4%;
+  }
+  @include md-phone {
+    padding: 8%;
+  }
+}
+
+div .p-r-6 {
+  @include md-phone {
+    padding-right: 0;
+  }
+}
+
+div .p-t-6 {
+  @include md-phone {
+    padding-top: 0;
+  }
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  position: relative;
+  z-index: 1;
+  @include md-phone {
+    display: inline;
+  }
+}
+
+.contact-title {
+  font-size: 12rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: var(--color-sky-blue-text);
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  @include sm {
+    font-size: 9rem;
+  }
+
+  @include md-phone {
+    font-size: 4.5rem;
+  }
+}
+
+.contact-subtitle {
+  font-size: 7rem;
+  font-weight: 900;
+  @include sm {
+    font-size: 5rem;
+  }
+  @include md-phone {
+    font-size: 3.5rem;
+  }
+}
+
+.smooth-scroll {
+  transition: transform 1s cubic-bezier(.57,.22,.46,.81);
+}

@@ -1,0 +1,38 @@
+// .home {
+// position: absolute;
+// top:0;
+// z-index: 0;
+// }
+
+.loader-wrapper {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    // flex-direction: column;
+    background-color: var(--color-violet);
+    color: var(--color-violet-text) ;
+    width: 100vw;
+    height: 100vh;
+    
+
+    div {
+        display: flex;
+        
+    }
+    h1{
+        font-size: 8rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        position: relative;
+        z-index: 1;
+    }
+    h4{
+        font-size: 4rem;
+        font-style: italic;
+        text-transform: uppercase;
+        font-weight: 300;
+    }
+}
+

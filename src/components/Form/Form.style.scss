@@ -1,0 +1,69 @@
+.contact-form {
+    display: grid;
+    
+}
+
+form {
+    width: 30vw;
+}
+
+input {
+    background-image: url('../../Svg/Icons/input.svg');
+    background-repeat: no-repeat;
+    border: none;
+    background-color: var(--color-transparent);
+    width: 100%;
+    height: 50px;
+   padding-left: 3%;
+}
+
+input:focus, textarea:focus {
+    background-color: transparent;
+    outline-color: transparent; 
+    outline-style: none;
+}
+
+input::placeholder, textarea::placeholder {
+    font-family: var(--font-main);
+    font-weight: 400;
+    // padding-left: 2%;
+    font-style: italic;
+}
+
+// textarea::placeholder {
+//     padding: 2%;
+// }
+
+.email {
+    background-image: url('../../Svg/Icons/form-mail.svg');
+    background-repeat: no-repeat;
+}
+
+textarea {
+
+    background-image: url('../../Svg/Icons/message.svg');
+    background-repeat: no-repeat;
+    border: none;
+    border-style: none;
+    background-color: var(--color-transparent);
+    width: 100%;
+    height: 130px;
+    resize: none; /*remove the resize handle on the bottom right*/
+    padding: 3% 5%;
+}
+
+
+.send-button {
+
+    border: none;
+    width: 110px;
+    height: 45px;
+    font-size: 1.2rem;
+    font-style: italic;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: var(--color-sky-blue-text);
+    background-color: var(--color-transparent);
+    background-image: url('../../Svg/Icons/send.svg');
+    background-repeat: no-repeat;
+}

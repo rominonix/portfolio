@@ -1,0 +1,120 @@
+@import "../../styles/ez/mediaqueries";
+
+.about {
+  background-color: var(--color-pink);
+
+  @include sm {
+    padding: 4%;
+  }
+
+  @include md-phone {
+    height: 101vh;
+    padding: 8%;
+  }
+}
+
+.smooth-scroll-title {
+  transition: transform 2s cubic-bezier(0.58, 0.08, 0.85, 0.34);
+}
+
+.scroll-about {
+  transition: transform 1s cubic-bezier(0.58, 0.08, 0.85, 0.34);
+}
+
+.scroll-about-img {
+  transition: transform 1.5s cubic-bezier(0.26, 0.18, 0.47, 0.99);
+}
+
+.about-title {
+  text-transform: uppercase;
+  color: var(--color-pink-text);
+  font-weight: 900;
+  font-size: 12rem;
+  position: relative;
+  z-index: 1;
+  @include sm {
+    font-size: 9rem;
+  }
+  @include md-phone {
+    font-size: 4.5rem;
+  }
+}
+
+.about-grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  column-gap: 2%;
+  align-items: center;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(3, 1fr);
+  @include md-phone {
+    display: inline;
+  }
+}
+
+.subtitle {
+  font-size: 7rem;
+  font-weight: 900;
+  @include sm {
+    font-size: 5rem;
+  }
+
+  @include md-phone {
+    margin-top: 1%;
+    font-size: 3.5rem;
+  }
+}
+
+.about-img {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  width: 110%;
+  @include sm {
+    width: 80%;
+  }
+}
+
+.about-contact {
+  display: grid;
+  justify-items: center;
+}
+
+.about-link {
+  // max-width: 10%;
+  display: flex;
+  column-gap: 5%;
+  
+}
+
+.ingress {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-style: italic;
+  @include md-phone {
+    font-size: 2rem;
+  }
+}
+
+.about-mail {
+  font-size: 2rem;
+  font-weight: 700;
+  @include md-phone {
+    font-size: 1.5rem;
+  }
+}
+
+.icons {
+  width: 100%;
+ 
+}
+
+.link-item {
+  display: flex;
+  justify-content: center;
+}
+
