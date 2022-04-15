@@ -373,7 +373,6 @@ export const getHome = () => async (dispatch) => {
       },
     };
     dispatch({ type: "FETCH_HOME", payload: data });
-    // console.log('data-action', data);
   } catch (error) {
     console.log(error.message);
   }

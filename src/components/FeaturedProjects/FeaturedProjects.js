@@ -72,9 +72,6 @@ const Featured = () => {
                 {featured.projectsSection?.subtitle.value}
               </h2>
               <p>{featured.projectsSection?.projectDescription.value}</p>
-              {/* <a href={featured.projectsSection?.projectLink.value}>
-                More projects
-              </a> */}
             </div>
             {openModal && <Modal closeModal={setOpenModal} />}
           </div>

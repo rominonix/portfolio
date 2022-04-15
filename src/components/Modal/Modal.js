@@ -20,7 +20,7 @@ const Modal = ({ closeModal }) => {
   return (
     modal && (
       <div className="modal-background">
-      <div className="bg"></div>
+        <div className="bg"></div>
         <div className="modal-container">
           <div className="modal-close-button">
             <button onClick={() => closeModal(false)}>X</button>
@@ -28,28 +28,21 @@ const Modal = ({ closeModal }) => {
 
           <div className="modal-grid">
             <div className="modal-left">
-              
               <img
                 className="modal-img"
                 src={selectedProject.projectImg.value}
               />
-              <div className='modal-title'>
-
-              <h1>{selectedProject.projectTitle.value}</h1>
-              <h1>{selectedProject.projectSubtitle.value}</h1>
-
-
+              <div className="modal-title">
+                <h1>{selectedProject.projectTitle.value}</h1>
+                <h1>{selectedProject.projectSubtitle.value}</h1>
               </div>
 
-              <p className='p-h-5'>{selectedProject.projectSingleDescription.value}</p>
+              <p className="p-h-5">
+                {selectedProject.projectSingleDescription.value}
+              </p>
             </div>
             <div className="modal-right">
-              <video
-                // width="520"
-                loop="loop"
-                autoPlay 
-                muted
-              >
+              <video loop="loop" autoPlay muted>
                 <source
                   src={modal.projectsSection?.projects[2].projectVideo.value}
                   type="video/mp4"
@@ -57,14 +50,13 @@ const Modal = ({ closeModal }) => {
               </video>
 
               <div className="modal-link">
-                <a 
+                <a
                   href={modal.projectsSection?.projects[2].linkToCode.value}
                   target="_blank"
                   rel="noreferrer"
                 >
                   link to code
                 </a>
-                {/* <button onClick={modal.projectsSection?.projects[2].linkToCode.value}>link to code</button> */}
 
                 <a>link to demo</a>
               </div>

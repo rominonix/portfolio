@@ -2,14 +2,12 @@ import React from "react";
 import Menu from "./Menu/Menu";
 import { useState, useEffect } from "react";
 import { useSelector } from "react-redux";
-import "./Header.style.scss";
 import { Link } from "react-router-dom";
+import "./Header.style.scss";
 
 const Header = () => {
   const settings = useSelector((state) => state.settings);
   const home = useSelector((state) => state.home);
-  // console.log(home);
-
   const [navbar, setNavbar] = useState(false);
 
   const changeHeaderBg = () => {
