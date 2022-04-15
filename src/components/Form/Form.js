@@ -6,8 +6,6 @@ import './Form.style.scss'
 const Form = ({ data }) => {
   const [input, setInput] = useState("");
   const contact = useSelector((state) => state.page);
-  // console.log("contact", contact);
-
   return (
     contact && (
       <form>

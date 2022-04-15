@@ -1,88 +1,88 @@
-@import '../../styles/ez/mediaqueries';
+@import "../../styles/ez/mediaqueries";
 
 .modal-background {
-    background-color: var(--color-green);
-    left: 0;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
+  background-color: var(--color-green);
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
 }
 
 video {
-    width: 520px;
+  width: 520px;
 
-    @include md {
-        width: 420px;
-    }
-    @include md-phone {
-        width: 320px;
-    }
+  @include md {
+    width: 420px;
+  }
+  @include md-phone {
+    width: 320px;
+  }
 }
 
 .modal-container {
-    display: grid;
+  display: grid;
+  width: 90%;
+  position: relative;
+  z-index: 1;
+  @include sm {
+    width: 80%;
+  }
+  @include md {
+    width: 80%;
+  }
+  @include md-phone {
     width: 90%;
-    position: relative;
-    z-index: 1;
-    @include sm {
-        width: 80%;
-    }  
-    @include md {
-        width: 80%;
-    }
-    @include md-phone {
-        width: 90%;
-    } 
+  }
 }
 
 .modal-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-content: center;
-    @include md-phone {
-        display: inline;
-    }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-content: center;
+  @include md-phone {
+    display: inline;
+  }
 }
 
 .modal-close-button {
-    margin-bottom: 2%;
-    display: flex;
-    justify-content: flex-end;
-    align-self: flex-start;
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-start;
 }
 
 .modal-left {
-    display: grid;
-    justify-items: center;
+  display: grid;
+  justify-items: center;
 }
 
 .modal-right {
-    display: grid;
-    justify-content: center;
+  display: grid;
+  justify-content: center;
 }
 
-.modal-title{
-    display: flex;
+.modal-title {
+  display: flex;
 }
 
 .modal-link {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    column-gap: 20px;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 20px;
+  justify-items: center;
 }
 
-.modal-img{
-    width: 50%;
+.modal-img {
+  width: 50%;
 }
 
-.screenshot{
-    width: 50%;
+.screenshot {
+  width: 50%;
 }

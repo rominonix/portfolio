@@ -1,5 +1,4 @@
 @import "../../styles/ez/mediaqueries";
-// @import '../../styles/locomotive/locomotive-scroll.css';
 
 h1 {
   margin: 0;
@@ -15,16 +14,15 @@ h1 {
 }
 
 .smooth-scroll {
-  transition: transform .5s cubic-bezier(.28,.22,0,1);
+  transition: transform 0.5s cubic-bezier(0.28, 0.22, 0, 1);
 }
-.text-block{
+.text-block {
   position: relative;
   z-index: 0;
 }
 
 .presentation,
 .author {
-  // position: absolute;
   text-transform: uppercase;
   font-weight: 900;
 }
@@ -41,7 +39,7 @@ h1 {
     font-size: 22.5rem;
     line-height: 23rem;
   }
-  
+
   @include sm {
     font-size: 14.5rem;
     line-height: 15rem;
@@ -61,7 +59,6 @@ h1 {
   justify-content: center;
   align-self: center;
   top: 41%;
-  
 }
 
 .presentation h1 {
@@ -75,7 +72,6 @@ h1 {
   @include md-phone {
     font-size: 2.5rem;
   }
-
 }
 
 .programmer {
@@ -90,8 +86,3 @@ h1 {
   font-style: italic;
   font-weight: 200;
 }
-
-// .cora-animation {
- 
-// }
-
