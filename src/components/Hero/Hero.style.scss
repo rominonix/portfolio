@@ -52,10 +52,12 @@ h1 {
 }
 
 .presentation {
+  width: 100%;
   position: absolute;
   display: flex;
   column-gap: 1%;
   margin-right: 0;
+  align-items: center;
   justify-content: center;
   align-self: center;
   top: 41%;

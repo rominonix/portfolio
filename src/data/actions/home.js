@@ -39,6 +39,7 @@ export const getHome = () => async (dispatch) => {
           value: "https://romina-portfolio.easyweb.site/projects",
         },
         projects: [
+          //e-wallet
           {
             label: "Sektion",
             projectTitle: {
@@ -63,8 +64,20 @@ export const getHome = () => async (dispatch) => {
               value:
                 "This is a project written in Javascript and Vue.js. It is a simulation in which you can create and delete different credit cards in a virtual wallet.",
             },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              // id: 512822,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              // id: 512823,
+              value: "https://github.com/rominonix/e-wallet-VUE",
+            },
             id: 501198,
           },
+          //trollskogen
           {
             label: "Sektion",
             projectTitle: {
@@ -89,8 +102,20 @@ export const getHome = () => async (dispatch) => {
               value:
                 "As I love the Swedish forest and nothing better than doing a little project in which to make a play on words and take advantage of cheating a little 😎. This is a Backend project with Javascript, Express, SQlite and Faker. Here you can create 10 fake profiles per day for various uses.",
             },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              // id: 512822,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              // id: 512823,
+              value: "https://github.com/rominonix/e-wallet-VUE",
+            },
             id: 501201,
           },
+          //beer-project
           {
             label: "Sektion",
             projectTitle: {
@@ -117,17 +142,18 @@ export const getHome = () => async (dispatch) => {
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
-              id: 512822,
+              // id: 512822,
               value:
                 "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
             },
             linkToCode: {
               label: "Extern links",
-              id: 512823,
-              value: "https://github.com/rominonix/iths-e-wallet",
+              // id: 512823,
+              value: "https://github.com/rominonix/backend-trollskogen",
             },
             id: 502134,
           },
+          //sinus
           {
             label: "Project",
             projectTitle: {
@@ -151,6 +177,17 @@ export const getHome = () => async (dispatch) => {
               id: 512676,
               value:
                 "Sinus is a skateboard webshop built in Javascript, Vue.js Vuex. It is a project designed and inspired by the artist and skater The Gonz (Mark Gonzáles).",
+            },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              id: 512822,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              id: 512823,
+              value: "https://github.com/rominonix/e-wallet-VUE",
             },
             id: 502407,
           },

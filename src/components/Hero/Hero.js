@@ -24,8 +24,8 @@ const Hero = () => {
             >
               <h1 className="author">{hero.heroHeader?.heroTitle.value}</h1>
               <div
-                className="content-standard presentation"
-                style={{ transform: `translateY(-${offsetY * 0.06}px)` }}
+                className="presentation"
+                style={{ transform: `translateY(-${offsetY * 0.02}px)` }}
               >
                 <h1 className="programmer">
                   {hero.heroHeader?.heroProgrammer.value}

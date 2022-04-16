@@ -1,6 +1,7 @@
 @import "../../styles/ez/mediaqueries";
 
 .about {
+  padding-top: 5%;
   background-color: var(--color-pink);
 
   @include sm {
@@ -53,7 +54,7 @@
   }
 }
 
-.subtitle {
+.subtitle-about {
   font-size: 7rem;
   font-weight: 900;
   @include sm {

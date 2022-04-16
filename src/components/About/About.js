@@ -28,7 +28,7 @@ const About = () => {
               className="scroll-about"
               style={{ transform: `translateY(-${offsetY * 0.05}px)` }}
             >
-              <h2 className="subtitle m-b-z">
+              <h2 className="subtitle-about m-b-z">
                 {about.aboutSection?.aboutSubtitle.value}
               </h2>
               <p className="description">
