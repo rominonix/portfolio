@@ -9,8 +9,8 @@
   }
 
   @include md-phone {
-    height: 100vh;
-    padding: 8%;
+    // height: 100vh;
+    padding: 20% 5% 1%;
   }
 }
 
@@ -43,6 +43,7 @@ a {
     font-size: 9rem;
   }
   @include md-phone {
+    justify-content: center;
     font-size: 4.5rem;
   }
 }
@@ -82,7 +83,7 @@ h3 {
   z-index: 1;
 
   @include md-phone {
-    margin-bottom: 15%;
+    margin: 15% 0%;
     row-gap: 10%;
   }
 }
@@ -109,6 +110,12 @@ h3 {
   display: grid;
   align-content: center;
   justify-items: center;
+  @include sm {
+    margin-bottom: 5%;
+  }
+  @include md-phone {
+    margin-top: 15%;
+  }
 }
 
 .smooth-scroll-title {
