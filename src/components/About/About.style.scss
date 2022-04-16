@@ -10,7 +10,7 @@
 
   @include md-phone {
     // height: 101vh;
-    padding: 8%;
+    padding: 20% 5% 1%;
   }
 }
 
@@ -38,6 +38,7 @@
   }
   @include md-phone {
     font-size: 4.5rem;
+    text-align: center;
   }
 }
 
@@ -62,7 +63,7 @@
   }
 
   @include md-phone {
-    margin-top: 1%;
+    margin-top: 15%;
     font-size: 3.5rem;
   }
 }
@@ -70,12 +71,16 @@
 .about-img {
   display: flex;
   justify-content: center;
+  margin-bottom: 15%;
 }
 
 .image {
   width: 110%;
   @include sm {
     width: 80%;
+  }
+  @include md-phone {
+    width: 75%;
   }
 }
 
