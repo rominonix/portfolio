@@ -1,3 +1,5 @@
+@import "../../../styles/ez/mediaqueries";
+
 header {
   nav {
     .menu-button {
@@ -9,6 +11,9 @@ header {
       text-transform: uppercase;
       font-style: italic;
       font-size: 1.5rem;
+      @include md-phone {
+        font-size: .9rem;
+      }
     
 
       .circle-animation {
@@ -18,9 +23,15 @@ header {
         transform: translate(-50%, -50%);
         width: 120px;
         height: 100px;
-
+        
         svg {
           max-width: 80%;
+        }
+        @include sm {
+          // padding: 5% 0 2%;    
+        }
+        @include md-phone {
+          width: 70px;
         }
       }
     }
@@ -59,7 +70,6 @@ header {
 
       li.main-item {
         position: relative;
-        // margin-right: 30px;
         font-size: 1.8rem;
         font-style: italic;
 

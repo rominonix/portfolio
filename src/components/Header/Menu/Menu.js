@@ -88,7 +88,6 @@ const Menu = () => {
             <button
               onClick={() => {
                 setShowMenu(false);
-                console.log("ahhaha");
               }}
             >
               X
