@@ -10,6 +10,7 @@ const Menu = () => {
   const menu = useSelector((state) => state.menu);
 
   const [showMenu, setShowMenu] = useState(false);
+  const [showCircle, setShowCircle] = useState(true)
 
   const { Anime } = ReactAnime;
 
@@ -40,10 +41,11 @@ const Menu = () => {
   return (
     menu && (
       <nav>
-        <button
+        { showCircle && <button
           className="menu-button"
           onClick={() => {
             setShowMenu(true);
+            setShowCircle(false)
           }}
         >
           <span className="circle-animation">
@@ -67,7 +69,7 @@ const Menu = () => {
             </Anime>
           </span>
           menu
-        </button>
+        </button>}
 
         {showMenu && (
           <ul className="main-menu">
@@ -86,12 +88,12 @@ const Menu = () => {
               );
             })}
             <button
+              className="close-menu"
               onClick={() => {
                 setShowMenu(false);
+                setShowCircle(true)
               }}
-            >
-              X
-            </button>
+            ></button>
           </ul>
         )}
       </nav>

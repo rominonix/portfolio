@@ -349,7 +349,7 @@ export const getHome = () => async (dispatch) => {
               id: 512815,
               value: "https://github.com/rominonix/tdd-frontend",
             },
-            id: 502479,
+            id: 502579,
           },
           // star wars catalog
           {

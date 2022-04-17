@@ -7,14 +7,15 @@ header {
       border: none;
       top: 55%;
       right: 10%;
+      color: var(--color-black);
       background-color: var(--color-transparent);
       text-transform: uppercase;
       font-style: italic;
-      font-size: 1.5rem;
+      font-weight: 100;
+      font-size: 1.9rem;
       @include md-phone {
-        font-size: .9rem;
+        font-size: 0.9rem;
       }
-    
 
       .circle-animation {
         position: absolute;
@@ -23,12 +24,12 @@ header {
         transform: translate(-50%, -50%);
         width: 120px;
         height: 100px;
-        
+
         svg {
           max-width: 80%;
         }
         @include sm {
-          // padding: 5% 0 2%;    
+          // padding: 5% 0 2%;
         }
         @include md-phone {
           width: 70px;
@@ -42,20 +43,6 @@ header {
       text-transform: uppercase;
       font-style: italic;
       display: flex;
-
-      // .circle-animation {
-      // //    margin: 2% 10%;
-      //     position: absolute;
-      //     top: 50%;
-      //     left: 50%;
-      //     transform: translate(-50%, -50%);
-      //     width: 100px;
-      //     height: 100px;
-
-      //     svg {
-      //         max-width: 100%;
-      //     }
-      // }
     }
 
     ul.main-menu {
@@ -70,21 +57,11 @@ header {
 
       li.main-item {
         position: relative;
-        font-size: 1.8rem;
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: var(--color-black);
         font-style: italic;
-
-        // .circle-animation {
-        //   position: absolute;
-        //   top: 50%;
-        //   left: 50%;
-        //   transform: translate(-50%, -50%);
-        //   width: 100px;
-        //   height: 100px;
-
-        //   svg {
-        //     max-width: 100%;
-        //   }
-        // }
+        font-weight:800;
         a {
           text-decoration: none;
           color: var(--color-black);
@@ -104,6 +81,15 @@ header {
           }
         }
       }
+    }
+
+    .close-menu {
+      width: 6rem;
+      height: 6rem;
+      background-color: var(--color-transparent);
+      border: none;
+      background-image: url("../../../Svg/Icons/x.svg");
+      background-repeat: no-repeat;
     }
 
     ul.sub-menu {

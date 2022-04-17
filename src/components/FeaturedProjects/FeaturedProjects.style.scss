@@ -2,14 +2,13 @@
 
 .featured {
   background-color: var(--color-green);
-  padding-bottom: 6%;
+  padding: 6%;
 
   @include sm {
     padding: 4%;
   }
 
   @include md-phone {
-    // height: 100vh;
     padding: 20% 5% 1%;
   }
 }
@@ -23,8 +22,8 @@ a {
   grid-auto-flow: column;
 
   @include md-phone {
-    grid-auto-flow: row;
-    margin: 5% 0 8%;
+    grid-auto-flow: revert;
+    margin-bottom: 0%;
   }
 }
 
@@ -76,7 +75,7 @@ h3 {
 .project-section-grid {
   display: grid;
   grid-auto-flow: column;
-  row-gap: 5%;
+  // row-gap: 3%;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(5, 1fr);
   position: relative;
@@ -84,11 +83,12 @@ h3 {
 
   overflow: scroll;
   height: 70vh;
+  overflow-x: hidden;
   
-
   @include md-phone {
-    margin: 15% 0%;
-    row-gap: 10%;
+    grid-auto-flow: row dense;
+    // margin: 5% 0%;
+    // row-gap: 10%;
   }
 }
 
@@ -96,27 +96,23 @@ h3 {
   width: 5px;
 }
 
-/* Track */
-// ::-webkit-scrollbar-track {
-//   background: #f1f1f1; 
-// }
- 
-/* Handle */
 .project-section-grid::-webkit-scrollbar-thumb {
   background: var(--color-green-text);; 
 }
 
-/* Handle on hover */
 .project-section-grid::-webkit-scrollbar-thumb:hover {
   background: var(--color-black); 
 }
 
 .project-items {
-  margin-top: 20%;
+  margin-top: 25%;
   display: grid;
   grid-auto-flow: row;
   justify-items: center;
   align-items: center;
+  @include md-phone{
+    margin-top: 38%;
+  }
   
 }
 
@@ -135,12 +131,13 @@ h3 {
   display: grid;
   align-content: center;
   justify-items: center;
-  padding: 5%;
+  padding: 10%;
   @include sm {
     margin-bottom: 5%;
   }
   @include md-phone {
     margin-top: 15%;
+    padding: 2%;
   }
 }
 
