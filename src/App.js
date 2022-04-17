@@ -4,7 +4,7 @@ import Home from "./views/Home/Home";
 import { getMenu } from "./data/actions/menu";
 import { getSettings } from "./data/actions/settings";
 import { getHome } from "./data/actions/home";
-import { BrowserRouter,HashRouter, Switch, Route } from "react-router-dom";
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 function App() {
   const dispatch = useDispatch();

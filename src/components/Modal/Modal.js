@@ -31,6 +31,7 @@ const Modal = ({ closeModal }) => {
               <img
                 className="modal-img"
                 src={selectedProject.projectImg.value}
+                alt="project"
               />
               <div className="modal-title">
                 <h1>{selectedProject.projectTitle.value}</h1>

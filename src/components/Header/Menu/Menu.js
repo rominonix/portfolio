@@ -4,14 +4,14 @@ import "./Menu.style.scss";
 import { Link } from "react-router-dom";
 import ReactAnime from "react-animejs";
 import { ReactComponent as Circle } from "../../../Svg/Icons/circle.svg";
-import { ReactComponent as MenuButton } from "../../../Svg/Icons/menu.svg";
+// import { ReactComponent as MenuButton } from "../../../Svg/Icons/menu.svg";
 
 const Menu = () => {
   const menu = useSelector((state) => state.menu);
 
   const [showMenu, setShowMenu] = useState(false);
 
-  const { Anime, stagger } = ReactAnime;
+  const { Anime } = ReactAnime;
 
   const circle =
       "M1.49923 33.4999C-0.500114 72.4999 32.4994 57 40.3799 78.4997C48.2605 99.9995 126.999 89.9998 119.999 37.4999C112.999 -15 3.49856 -5.5002 1.49923 33.4999Z",

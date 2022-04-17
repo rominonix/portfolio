@@ -9,8 +9,8 @@ export const getSettings = () => async (dispatch) => {
       office: {
         label: "Kontor",
         name: { label: "Företagsnamn", id: 502209, value: "Romina Rebolledo" },
-        phone: { label: "Telefon", id: 502210, value: "073 788 95 44" },
-        mail: { label: "E-post", id: 502211, value: "hi@rominarebolledo.com" },
+        phone: { label: "Telefon", id: 502210, value: "73 788 95 44" },
+        mail: { label: "E-post", id: 502211, value: "rominarebolledo[at]gmail.com" },
         postal: { label: "Postnummer", id: 502213, value: "11 242" },
         city: { label: "Stad", id: 502214, value: "Stockholm" },
         id: 502208,

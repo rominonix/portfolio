@@ -36,8 +36,8 @@ h1 {
   position: relative;
 
   @include md {
-    font-size: 22.5rem;
-    line-height: 23rem;
+    font-size: 20rem;
+    line-height: 22rem;
   }
 
   @include sm {
@@ -61,6 +61,9 @@ h1 {
   justify-content: center;
   align-self: center;
   top: 41%;
+  @include md-phone {
+    flex-direction: column;
+  }
 }
 
 .presentation h1 {
@@ -69,10 +72,10 @@ h1 {
     font-size: 7rem;
   }
   @include md {
-    font-size: 7rem;
+    font-size: 6rem;
   }
   @include md-phone {
-    font-size: 2.5rem;
+    font-size: 4rem;
   }
 }
 
