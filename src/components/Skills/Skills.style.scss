@@ -6,6 +6,10 @@
   @include sm {
     padding: 4%;
   }
+  @include md-phone {
+    padding: 0% 5% 8%;
+    // background-color: aqua;
+  }
 }
 
 .skill-title {
@@ -36,7 +40,8 @@
     padding: 6%;
   }
   @include md-phone {
-    padding: 3%;
+    padding: 10%;
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -46,19 +51,17 @@
 }
 
 .skills-icons p {
-    margin-top: 1%;
-    font-size: 1.3rem;
-    text-transform: uppercase;
-    font-style: italic;
-    
-    
-    @include sm {
-      font-size: 1.5rem;
-      
-    }
-    @include md-phone {
-      font-size: .9rem;
-    }
+  margin-top: 1%;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-style: italic;
+
+  @include sm {
+    font-size: 1.5rem;
+  }
+  @include md-phone {
+    font-size: 0.8rem;
+  }
 }
 
 .icon {

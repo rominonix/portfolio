@@ -7,7 +7,7 @@
     padding: 4%;
   }
   @include md-phone {
-    padding: 8%;
+    padding: 20% 5% 1%;
   }
 }
 
@@ -19,6 +19,7 @@ div .p-r-6 {
 
 div .p-t-6 {
   @include md-phone {
+    width: 100%;
     padding-top: 0;
   }
 }
@@ -48,6 +49,7 @@ div .p-t-6 {
 
   @include md-phone {
     font-size: 4.5rem;
+    margin: 0%;
   }
 }
 
@@ -58,6 +60,7 @@ div .p-t-6 {
     font-size: 5rem;
   }
   @include md-phone {
+    margin: 0%;
     font-size: 3.5rem;
   }
 }

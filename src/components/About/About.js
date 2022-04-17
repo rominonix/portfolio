@@ -16,7 +16,7 @@ const About = () => {
   return (
     about && (
       <section id="about" className="content-full">
-        <div className="about">
+        <div className="about p-t-5 p-b-6 p-h-6">
           <h1
             className="about-title smooth-scroll-title"
             style={{ transform: `translateY(-${offsetY * 0.02}px)` }}

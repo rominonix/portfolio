@@ -382,7 +382,7 @@ export const getHome = () => async (dispatch) => {
             iconsTitles: {
               label: "Textrad (textbox)",
               id: 531576,
-              value: "github",
+              value: "git",
             },
             skillsIcons: {
               label: "github-logo",

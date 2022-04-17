@@ -114,6 +114,9 @@
 
 .icons {
   width: 100%;
+  @include md-phone {
+    width: 80%;
+  }
 }
 
 .link-item {
