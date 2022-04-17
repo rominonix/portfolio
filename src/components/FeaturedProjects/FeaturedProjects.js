@@ -60,7 +60,9 @@ const Featured = () => {
                         
                       </h3>
                     </div>
+    
                   </div>
+                  
                 );
               })}
             </div>

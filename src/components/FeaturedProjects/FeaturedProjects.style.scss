@@ -78,9 +78,13 @@ h3 {
   grid-auto-flow: column;
   row-gap: 5%;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   position: relative;
   z-index: 1;
+
+  overflow: scroll;
+  height: 70vh;
+  
 
   @include md-phone {
     margin: 15% 0%;
@@ -88,11 +92,32 @@ h3 {
   }
 }
 
+.project-section-grid::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+// ::-webkit-scrollbar-track {
+//   background: #f1f1f1; 
+// }
+ 
+/* Handle */
+.project-section-grid::-webkit-scrollbar-thumb {
+  background: var(--color-green-text);; 
+}
+
+/* Handle on hover */
+.project-section-grid::-webkit-scrollbar-thumb:hover {
+  background: var(--color-black); 
+}
+
 .project-items {
+  margin-top: 20%;
   display: grid;
   grid-auto-flow: row;
   justify-items: center;
   align-items: center;
+  
 }
 
 .project-img {
@@ -110,6 +135,7 @@ h3 {
   display: grid;
   align-content: center;
   justify-items: center;
+  padding: 5%;
   @include sm {
     margin-bottom: 5%;
   }

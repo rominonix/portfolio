@@ -191,6 +191,82 @@ export const getHome = () => async (dispatch) => {
             },
             id: 502407,
           },
+
+          {
+            label: "Project",
+            projectTitle: {
+              label: "Textrad (textbox)",
+              id: 502408,
+              value: "Sinus",
+            },
+            projectSubtitle: {
+              label: "Textrad (textbox)",
+              id: 511155,
+              value: "Webbshop",
+            },
+            projectImg: {
+              label: "sinus2",
+              id: 512647,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/images/752954.png",
+            },
+            projectSingleDescription: {
+              label: "Beskrivning (textarea)",
+              id: 512676,
+              value:
+                "Sinus is a skateboard webshop built in Javascript, Vue.js Vuex. It is a project designed and inspired by the artist and skater The Gonz (Mark Gonzáles).",
+            },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              id: 512822,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              id: 512823,
+              value: "https://github.com/rominonix/e-wallet-VUE",
+            },
+            id: 502407,
+          },
+
+          {
+            label: "Project",
+            projectTitle: {
+              label: "Textrad (textbox)",
+              id: 502408,
+              value: "Sinus",
+            },
+            projectSubtitle: {
+              label: "Textrad (textbox)",
+              id: 511155,
+              value: "Webbshop",
+            },
+            projectImg: {
+              label: "sinus2",
+              id: 512647,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/images/752954.png",
+            },
+            projectSingleDescription: {
+              label: "Beskrivning (textarea)",
+              id: 512676,
+              value:
+                "Sinus is a skateboard webshop built in Javascript, Vue.js Vuex. It is a project designed and inspired by the artist and skater The Gonz (Mark Gonzáles).",
+            },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              id: 512822,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              id: 512823,
+              value: "https://github.com/rominonix/e-wallet-VUE",
+            },
+            id: 502407,
+          },
         ],
         id: 501197,
       },
