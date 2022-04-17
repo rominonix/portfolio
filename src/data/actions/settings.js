@@ -29,7 +29,7 @@ export const getSettings = () => async (dispatch) => {
             socialLink: {
               label: "Extern links",
               id: 511580,
-              value: "https://www.instagram.com/corrientealterna/",
+              value: "https://github.com/rominonix",
             },
             id: 511578,
           },
@@ -59,7 +59,7 @@ export const getSettings = () => async (dispatch) => {
             socialLink: {
               label: "Extern links",
               id: 511586,
-              value: "https://www.instagram.com/corrientealterna/",
+              value: "https://www.linkedin.com/in/rominarebolledo/",
             },
             id: 511584,
           },
