@@ -45,21 +45,23 @@ const Modal = ({ closeModal }) => {
             <div className="modal-right">
               <video loop="loop" autoPlay muted>
                 <source
-                  src={modal.projectsSection?.projects.projectVideo?.value}
+                  src={modal.projectsSection?.projects[2].projectVideo.value}
                   type="video/mp4"
                 />
               </video>
 
               <div className="modal-link">
                 <a
-                  href={modal.projectsSection?.projects.linkToCode?.value}
+                  href={selectedProject.linkToCode.value}
+
+                  // href={modal.projectsSection?.projects[2].linkToCode.value}
                   target="_blank"
                   rel="noreferrer"
                 >
                   link to code
                 </a>
 
-                <a>link to demo</a>
+                {/* <a>link to demo</a> */}
               </div>
             </div>
           </div>

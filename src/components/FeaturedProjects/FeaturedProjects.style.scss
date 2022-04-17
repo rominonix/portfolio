@@ -78,7 +78,7 @@ h3 {
   grid-auto-flow: column;
   row-gap: 5%;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
   position: relative;
   z-index: 1;
 
@@ -121,7 +121,7 @@ h3 {
 }
 
 .project-img {
-  width: 80%;
+  width: 100%;
   cursor: pointer;
   @include sm {
     width: 60%;

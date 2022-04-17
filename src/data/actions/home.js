@@ -1,4 +1,12 @@
 // import fetchData from "../api";
+import inge from "../../assets/inge.png"
+import meetup from "../../assets/meetup.png"
+import gossip from "../../assets/gossip.png"
+import tddf from "../../assets/tdd-f.png"
+import tddb from "../../assets/tdd-b.png"
+import star from "../../assets/star.png"
+
+
 export const getHome = () => async (dispatch) => {
   try {
     // const data = await fetchData("routes");
@@ -66,13 +74,13 @@ export const getHome = () => async (dispatch) => {
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
-              // id: 512822,
+              id: 512873,
               value:
                 "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
             },
             linkToCode: {
               label: "Extern links",
-              // id: 512823,
+              id: 512874,
               value: "https://github.com/rominonix/e-wallet-VUE",
             },
             id: 501198,
@@ -104,14 +112,14 @@ export const getHome = () => async (dispatch) => {
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
-              // id: 512822,
+              id: 512922,
               value:
                 "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
             },
             linkToCode: {
               label: "Extern links",
-              // id: 512823,
-              value: "https://github.com/rominonix/e-wallet-VUE",
+              id: 512923,
+              value: "https://github.com/rominonix/backend-trollskogen",
             },
             id: 501201,
           },
@@ -142,14 +150,14 @@ export const getHome = () => async (dispatch) => {
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
-              // id: 512822,
+              id: 517822,
               value:
                 "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
             },
             linkToCode: {
               label: "Extern links",
-              // id: 512823,
-              value: "https://github.com/rominonix/backend-trollskogen",
+              id: 517923,
+              value: "https://github.com/rominonix/wiki-beer",
             },
             id: 502134,
           },
@@ -158,63 +166,63 @@ export const getHome = () => async (dispatch) => {
             label: "Project",
             projectTitle: {
               label: "Textrad (textbox)",
-              id: 502408,
+              id: 502409,
               value: "Sinus",
             },
             projectSubtitle: {
               label: "Textrad (textbox)",
-              id: 511155,
+              id: 511156,
               value: "Webbshop",
             },
             projectImg: {
               label: "sinus2",
-              id: 512647,
+              id: 512657,
               value:
                 "https://romina-portfolio.easyweb.site/upl/images/752954.png",
             },
             projectSingleDescription: {
               label: "Beskrivning (textarea)",
-              id: 512676,
+              id: 512677,
               value:
                 "Sinus is a skateboard webshop built in Javascript, Vue.js Vuex. It is a project designed and inspired by the artist and skater The Gonz (Mark Gonzáles).",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
-              id: 512822,
+              id: 512824,
               value:
                 "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
             },
             linkToCode: {
               label: "Extern links",
-              id: 512823,
-              value: "https://github.com/rominonix/e-wallet-VUE",
+              id: 512825,
+              value: "https://github.com/rominonix/sinus",
             },
-            id: 502407,
+            id: 502497,
           },
-
+          //meetup
           {
             label: "Project",
             projectTitle: {
               label: "Textrad (textbox)",
-              id: 502408,
-              value: "Sinus",
+              id: 502410,
+              value: "Meet",
             },
             projectSubtitle: {
               label: "Textrad (textbox)",
-              id: 511155,
-              value: "Webbshop",
+              id: 511111,
+              value: "UP",
             },
             projectImg: {
-              label: "sinus2",
+              label: "meetup",
               id: 512647,
               value:
-                "https://romina-portfolio.easyweb.site/upl/images/752954.png",
+                meetup,
             },
             projectSingleDescription: {
               label: "Beskrivning (textarea)",
               id: 512676,
               value:
-                "Sinus is a skateboard webshop built in Javascript, Vue.js Vuex. It is a project designed and inspired by the artist and skater The Gonz (Mark Gonzáles).",
+                "Do you want to make plans again and meet new people who have the same interests as you? Well here is MeetUp. A Full Stack project written in Typescript, in Frontend I used React, Bakend with Express and Sqlite as database. For the tests I used Testing Library and Jest.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -225,47 +233,199 @@ export const getHome = () => async (dispatch) => {
             linkToCode: {
               label: "Extern links",
               id: 512823,
-              value: "https://github.com/rominonix/e-wallet-VUE",
+              value: "https://github.com/rominonix/meetup-tdd",
             },
-            id: 502407,
+            id: 502487,
           },
-
+            //inge
           {
             label: "Project",
             projectTitle: {
               label: "Textrad (textbox)",
-              id: 502408,
-              value: "Sinus",
+              id: 502428,
+              value: "Inge",
             },
             projectSubtitle: {
               label: "Textrad (textbox)",
-              id: 511155,
-              value: "Webbshop",
+              id: 511115,
+              value: "BraBygg",
             },
             projectImg: {
-              label: "sinus2",
-              id: 512647,
+              label: "inge",
+              id: 512617,
               value:
-                "https://romina-portfolio.easyweb.site/upl/images/752954.png",
+                inge,
             },
             projectSingleDescription: {
               label: "Beskrivning (textarea)",
-              id: 512676,
+              id: 512616,
               value:
-                "Sinus is a skateboard webshop built in Javascript, Vue.js Vuex. It is a project designed and inspired by the artist and skater The Gonz (Mark Gonzáles).",
+                "Norra Tornen is the architectural project on which I based the design of the Inge Bra Bygg Application made in Javascript and React Native.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
-              id: 512822,
+              id: 512812,
               value:
                 "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
             },
             linkToCode: {
               label: "Extern links",
-              id: 512823,
-              value: "https://github.com/rominonix/e-wallet-VUE",
+              id: 512813,
+              value: "https://github.com/rominonix/crossplatform-react-native",
             },
-            id: 502407,
+            id: 502477,
+          },
+          //gossip
+          {
+            label: "Project",
+            projectTitle: {
+              label: "Textrad (textbox)",
+              id: 502528,
+              value: "24",
+            },
+            projectSubtitle: {
+              label: "Textrad (textbox)",
+              id: 511116,
+              value: "Gossip",
+            },
+            projectImg: {
+              label: "gossip",
+              id: 512717,
+              value:
+                gossip,
+            },
+            projectSingleDescription: {
+              label: "Beskrivning (textarea)",
+              id: 512618,
+              value:
+                "If you like to know the latest news from your favorite celebrities, 24 gossip is the perfect application for you. This is a Fullstack app written in Typescript, the Backend is an Express app, using Firebase as database and Contentful as CMS. On the Frontend we have React Native with Expo.",
+            },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              id: 512912,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              id: 512814,
+              value: "https://github.com/rominonix/crossplatform-react-native",
+            },
+            id: 502478,
+          },
+          //tdd-frontend
+          {
+            label: "Project",
+            projectTitle: {
+              label: "Textrad (textbox)",
+              id: 502529,
+              value: "plant",
+            },
+            projectSubtitle: {
+              label: "Textrad (textbox)",
+              id: 511114,
+              value: "webshop",
+            },
+            projectImg: {
+              label: "plant",
+              id: 512718,
+              value:
+                tddf,
+            },
+            projectSingleDescription: {
+              label: "Beskrivning (textarea)",
+              id: 512619,
+              value:
+                "This is a TDD project and it is a plant webshop. The app is written in Typescript, with React and Redux kit tools. For tests use Ensime, Jest and Test library.",
+            },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              id: 512913,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              id: 512815,
+              value: "https://github.com/rominonix/tdd-frontend",
+            },
+            id: 502479,
+          },
+          // star wars catalog
+          {
+            label: "Project",
+            projectTitle: {
+              label: "Textrad (textbox)",
+              id: 502529,
+              value: "StarWars",
+            },
+            projectSubtitle: {
+              label: "Textrad (textbox)",
+              id: 511114,
+              value: "Catalog",
+            },
+            projectImg: {
+              label: "star",
+              id: 512718,
+              value:
+                star,
+            },
+            projectSingleDescription: {
+              label: "Beskrivning (textarea)",
+              id: 512619,
+              value:
+                "It is a Javascript project in which it interacts directly with the DOM and with the SWAPI Api. Here you can see the characteristics of each of the characters from the different movies of the Star Wars saga.",
+            },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              id: 512913,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              id: 512815,
+              value: "https://github.com/rominonix/star-wars-catalog",
+            },
+            id: 502479,
+          },
+          //tdd-back
+          {
+            label: "Project",
+            projectTitle: {
+              label: "Textrad (textbox)",
+              id: 502629,
+              value: "Plant",
+            },
+            projectSubtitle: {
+              label: "Textrad (textbox)",
+              id: 511214,
+              value: "Backend",
+            },
+            projectImg: {
+              label: "tdd-backend",
+              id: 512719,
+              value:
+                tddb,
+            },
+            projectSingleDescription: {
+              label: "Beskrivning (textarea)",
+              id: 512620,
+              value:
+                "This is a TDD project, in which I created a REST API with Express and SQlite for a plant webshop. The app is written in Typescript and for tests use Jest and Super Test.",
+            },
+            projectVideo: {
+              label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
+              id: 512914,
+              value:
+                "https://romina-portfolio.easyweb.site/upl/files/178090.mp4",
+            },
+            linkToCode: {
+              label: "Extern links",
+              id: 512816,
+              value: "https://github.com/rominonix/tdd-backend",
+            },
+            id: 502480,
           },
         ],
         id: 501197,
