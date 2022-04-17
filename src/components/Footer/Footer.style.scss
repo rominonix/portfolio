@@ -29,6 +29,7 @@ footer {
 .footer-title{
     font-weight: 900;
 }
+
 .social-section {
   margin: 10% 0 0;
   display: grid;
@@ -37,7 +38,7 @@ footer {
   align-items: center;
 }
 .social-section img {
-  width: 70%;
+  width: 200%;
   @include md-phone {
     width: 150%;
   }
