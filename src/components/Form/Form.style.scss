@@ -9,9 +9,9 @@
 
 form {
   width: 30vw;
-  background-color: rgb(255, 77, 0);
+  background-color: rgb(234, 255, 0);
   @include md-phone {
-    margin-right: 1%;
+  // padding-right: 10%;
    width: 92vw;
   }
 }
