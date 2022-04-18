@@ -10,7 +10,7 @@ import types from "../../Svg/Icons/types.svg"
 import node from "../../Svg/Icons/node.svg"
 import fire from "../../Svg/Icons/firebase.svg"
 import sq from "../../Svg/Icons/sqlite.svg"
-
+import gossipvideo from "../../assets/gossip.mp4"
 export const getHome = () => async (dispatch) => {
   try {
     // const data = await fetchData("routes");
@@ -313,7 +313,7 @@ export const getHome = () => async (dispatch) => {
             linkToCode: {
               label: "Extern links",
               id: 512814,
-              value: "https://github.com/rominonix/crossplatform-react-native",
+              value: gossipvideo,
             },
             id: 502478,
           },
