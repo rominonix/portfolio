@@ -46,6 +46,7 @@ video {
   //   width: 80%;
   // }
   @include md-phone {
+    padding-top: 5%;
     width: 95vw;
     height: auto;
     overflow: scroll;
