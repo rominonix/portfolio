@@ -9,7 +9,6 @@
   }
 
   @include md-phone {
-    // height: 101vh;
     padding: 20% 5% 1%;
   }
 }
@@ -71,11 +70,8 @@
 .about-img {
   display: flex;
   justify-content: center;
-  // background-color: aqua;
-
   margin-bottom: 15%;
   @include md-phone {
-    // background-color: aqua;
     height: auto;
   }
 }
@@ -86,7 +82,6 @@
     width: 80%;
   }
   @include md-phone {
-    // background-color: aliceblue;
     width: 95%;
     height: 95%;
   }

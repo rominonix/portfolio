@@ -9,8 +9,9 @@
 
 form {
   width: 30vw;
+  background-color: brown;
   @include md-phone {
-   
+   width: 90vw;
   }
 }
 
@@ -45,8 +46,9 @@ textarea::placeholder {
 .email {
   background-image: url("../../Svg/Icons/form-mail.svg");
   background-repeat: no-repeat;
+  width: 100%;
   @include md-phone {
-    width: 25em;
+    // width: 25em;
   }
 }
 
@@ -61,7 +63,7 @@ textarea {
   resize: none; /*remove the resize handle on the bottom right*/
   padding: 3% 0%;
   @include md-phone {
-    width: 25em;
+    // width: 25em;
   }
 }
 
