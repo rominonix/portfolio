@@ -40,7 +40,7 @@ const Modal = ({ closeModal }) => {
                 <h1 className="project-subtitle">{selectedProject.projectSubtitle.value}</h1>
               </div>
 
-              <p className="p-h-5">
+              <p className="modal-description p-h-5">
                 {selectedProject.projectSingleDescription.value}
               </p>
               {/* <button className="link-code" onClick={() => selectedProject.linkToCode.value}></button> */}

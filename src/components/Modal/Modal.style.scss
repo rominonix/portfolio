@@ -28,7 +28,7 @@ video {
 
 .modal-container {
   background-color: var(--color-violet-text);
-  padding: 5%;
+  padding: 2% 5% 3%;
   display: flex;
   width: 60vw;
   // justify-content: center;
@@ -46,10 +46,21 @@ video {
   //   width: 80%;
   // }
   @include md-phone {
-    width: 90%;
+    width: 95vw;
+    height: auto;
+    overflow: scroll;
   }
 }
 
+.modal-description {
+  @include md-phone {
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 3% 0;
+    width: 100%;
+    // background-color: aqua;
+  }
+}
 // .modal-grid {
 //   display: grid;
 //   grid-template-columns: repeat(2, 1fr);
@@ -73,11 +84,17 @@ video {
   background-repeat: no-repeat;
   width: 6rem;
   height: 6rem;
-  align-self: flex-end;  
+  align-self: flex-end;
+  @include md-phone {
+    background-image: url("../../Svg/Icons/x.svg");
+    background-repeat: no-repeat;
+    width: 3rem;
+    height: 3rem;
+  }
 }
 
 .modal-left {
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,6 +113,9 @@ video {
   display: flex;
   font-weight: 300;
   text-transform: uppercase;
+  @include md-phone {
+    font-size: 1.5rem;
+  }
 }
 
 .modal-link {
@@ -109,6 +129,9 @@ video {
   margin-bottom: 2%;
   width: 60%;
   z-index: 2;
+  @include md-phone {
+    width: 100%;
+  }
 }
 
 .screenshot {
