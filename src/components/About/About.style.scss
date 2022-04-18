@@ -86,8 +86,9 @@
     width: 80%;
   }
   @include md-phone {
+    background-color: aliceblue;
     width: 85%;
-    height: auto;
+    height: 85%;
   }
 }
 
