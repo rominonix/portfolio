@@ -1,5 +1,6 @@
 import React from "react";
 import { useSelector } from "react-redux";
+import linkImg from "../../Svg/Icons/link.svg"
 import "./Modal.style.scss";
 
 const Modal = ({ closeModal }) => {
@@ -42,15 +43,16 @@ const Modal = ({ closeModal }) => {
               <p className="p-h-5">
                 {selectedProject.projectSingleDescription.value}
               </p>
+              {/* <button className="link-code" onClick={() => selectedProject.linkToCode.value}></button> */}
 
               <a
                   href={selectedProject.linkToCode.value}
-
+                  className="link-code"
                   // href={modal.projectsSection?.projects[2].linkToCode.value}
                   target="_blank"
                   rel="noreferrer"
                 >
-                  link to code
+                
                 </a>
             </div>
             {/* <div className="modal-link">

@@ -69,7 +69,7 @@ video {
 .close-x {
   background-color: var(--color-transparent);
   border: none;
-  background-image: url("../../Svg/Icons/x.svg");
+  background-image: url("../../Svg/Icons/x-modal.svg");
   background-repeat: no-repeat;
   width: 6rem;
   height: 6rem;
@@ -113,4 +113,13 @@ video {
 
 .screenshot {
   width: 50%;
+}
+
+.link-code {
+  width: 6.2em;
+  height: 3em;
+  background-color: var(--color-transparent);
+  border: none;
+  background-image: url("../../Svg/Icons/link.svg");
+  background-repeat: no-repeat;
 }
