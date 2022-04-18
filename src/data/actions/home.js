@@ -39,7 +39,7 @@ export const getHome = () => async (dispatch) => {
           label: "Beskrivning (textarea)",
           id: 510744,
           value:
-            "Good, that we continue together on this little trip through my site. Here you can see some of my javascript and typescript projects. They are all different and range from Backend projects such as REST Apis, Frontend, Full Stack in which I also include interface design. You can find projects in vanilla, others with frameworks such as Vue.js, React.js, React-native and other applications with Express, Firebase among others.",
+            "Great that we continue together on this little trip through my website. Here you can see some of my Javascript and Typescript projects. They are all different and range from back-end projects such as REST API:s, front-end, to full-stack in which I also include interface design. You can find projects in vanilla Javascript as well as with frameworks such as Vue.js, React.js, React Native and other applications made with Express and Firebase.",
         },
         projectLink: {
           label: "Projects",
@@ -108,7 +108,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512674,
               value:
-                "As I love the Swedish forest and nothing better than doing a little project in which to make a play on words and take advantage of cheating a little 😎. This is a Backend project with Javascript, Express, SQlite and Faker. Here you can create 10 fake profiles per day for various uses.",
+                "Since I love the Swedish forest there is nothing better than doing a little project in which to make a play on words and make random new profiles. This is a back-end project with Javascript, Express, and SQLite. Here you can create 10 fake profiles per day for various uses.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -146,7 +146,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512675,
               value:
-                "Many of us love beers and why not interact with Punki Api to choose a different beer every day. In this project I wrote it in javascript interacting directly with the DOM. Every time you click on the random button, you get a different beer and by clicking on it you can see all its details. Skål 🍻!",
+                "Many of us love beers and why not interact with Punki API to choose a different beer every day. I wrote this project in vanilla Javascript interacting directly with the DOM. Every time you click on the random button, you get a different beer and by clicking on it you can see all its details. Skål 🍻!",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -184,7 +184,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512677,
               value:
-                "Sinus is a skateboard webshop built in Javascript, Vue.js Vuex. It is a project designed and inspired by the artist and skater The Gonz (Mark Gonzáles).",
+                "Sinus is a skateboard webshop built in Javascript and Vue.js (with Vuex). I made the designs using figma and I took inspiration from the artist and skater The Gonz (Mark Gonzáles).",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -205,12 +205,12 @@ export const getHome = () => async (dispatch) => {
             projectTitle: {
               label: "Textrad (textbox)",
               id: 502410,
-              value: "Meet",
+              value: "In",
             },
             projectSubtitle: {
               label: "Textrad (textbox)",
               id: 511111,
-              value: "UP",
+              value: "Touch",
             },
             projectImg: {
               label: "meetup",
@@ -222,7 +222,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512676,
               value:
-                "Do you want to make plans again and meet new people who have the same interests as you? Well here is MeetUp. A Full Stack project written in Typescript, in Frontend I used React, Bakend with Express and Sqlite as database. For the tests I used Testing Library and Jest.",
+                "Do you want to make plans again and meet new people who have the same interests as you? Well, here is InTouch. A full-stack project written in Typescript. In the front-end I used React, the back-end with Express and Sqlite was used as a database. For the tests I used Testing Library, Jest and Enzyme.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -260,7 +260,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512616,
               value:
-                "Norra Tornen is the architectural project on which I based the design of the Inge Bra Bygg Application made in Javascript and React Native.",
+                "Norra Tornen is the architectural project on which I based the design for Inge Bra Bygg. The application is written in Javascript with Express, SQLite and React Native.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -298,7 +298,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512618,
               value:
-                "If you like to know the latest news from your favorite celebrities, 24 gossip is the perfect application for you. This is a Fullstack app written in Typescript, the Backend is an Express app, using Firebase as database and Contentful as CMS. On the Frontend we have React Native with Expo.",
+                "If you like to know the latest news from your favorite celebrities, 24 gossip is the perfect application for you. This is a full-stack app written in Typescript, the back-end is an Express app, using Firebase as database and Contentful as CMS. On the front-end we have React Native with Expo.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -336,7 +336,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512619,
               value:
-                "This is a TDD project and it is a plant webshop. The app is written in Typescript, with React and Redux kit tools. For tests use Ensime, Jest and Test library.",
+                "The project was developed using Test-Driven Development (TDD) and it is a webshop for buying plants. The app is written in Typescript, with React and Redux Toolkit. For tests I used Enzyme, Jest and Test Library.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -374,7 +374,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512619,
               value:
-                "It is a Javascript project in which it interacts directly with the DOM and with the SWAPI Api. Here you can see the characteristics of each of the characters from the different movies of the Star Wars saga.",
+                "This is a vanilla Javascript project that interacts directly with the DOM and with the SWAPI API. Here you can see the characteristics of each of the characters from the different movies of the Star Wars saga.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -412,7 +412,7 @@ export const getHome = () => async (dispatch) => {
               label: "Beskrivning (textarea)",
               id: 512620,
               value:
-                "This is a TDD project, in which I created a REST API with Express and SQlite for a plant webshop. The app is written in Typescript and for tests use Jest and Super Test.",
+                "This is the back-end for the Plants webshop. It was also developed using Test-Driven Development, and it includes a REST API written with Express and SQlite as a database. The app is written in Typescript and for tests used Jest and Super Test.",
             },
             projectVideo: {
               label: "Grabacio´n de pantalla 2021-09-16 a la(s) 11.24.30",
@@ -438,7 +438,7 @@ export const getHome = () => async (dispatch) => {
           label: "Beskrivning (textarea)",
           id: 502422,
           value:
-            "I'm Romina, Javascript developer, designer and visual artist. For many years my work has moved between design, programming and art projects. During the last two years web development 👩‍💻 has taken the most important role. In the projects section 👆 you can see my featured projects in Javascript. I am Chilean-Swedish, I was born in Santiago and have lived in different countries. I currently live in Stockholm, a wonderful city that has the perfect balance between urban and nature 🌳.",
+            "I'm Romina, Javascript developer, designer and visual artist. For many years my work has moved between design, programming and art projects. During the last two years web development has become the most important role 👩‍💻. In the projects section 👆 you can see my featured projects in Javascript. I am Chilean-Swedish, I was born in Santiago and have lived in different countries. I currently live in Stockholm, a wonderful city that has the perfect balance between urban and nature 🌳.",
         },
         aboutImg: {
           label: "romi-portrait",
@@ -639,7 +639,7 @@ export const getHome = () => async (dispatch) => {
           label: "Beskrivning (textarea)",
           id: 511559,
           value:
-            "Well, here you can contact me if you want us to do a project together, or just write me to say hello and meet for a ☕ or 🍺 and talk about art, design and of course code 🤓.",
+            "Well, here you can contact me if you want us to do a project together, or just write to me to say hello and meet for a ☕ or a 🍺 and talk about art, design and of course code 🤓.",
         },
         id: 511556,
       },
