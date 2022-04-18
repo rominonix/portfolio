@@ -5,7 +5,11 @@ import gossip from "../../assets/gossip.png"
 import tddf from "../../assets/tdd-f.png"
 import tddb from "../../assets/tdd-b.png"
 import star from "../../assets/star.png"
-
+import figma from "../../Svg/Icons/figma.svg"
+import types from "../../Svg/Icons/types.svg"
+import node from "../../Svg/Icons/node.svg"
+import fire from "../../Svg/Icons/firebase.svg"
+import sq from "../../Svg/Icons/sqlite.svg"
 
 export const getHome = () => async (dispatch) => {
   try {
@@ -538,6 +542,39 @@ export const getHome = () => async (dispatch) => {
             },
             id: 511524,
           },
+
+          {
+            label: "skillSectionIcon",
+            iconsTitles: {
+              label: "Textrad (textbox)",
+              id: 521531,
+              value: "Typescript",
+            },
+            skillsIcons: {
+              label: "Ts-logo",
+              id: 520919,
+              value:
+                types,
+            },
+            id: 531524,
+          },
+
+          {
+            label: "skillSectionIcon",
+            iconsTitles: {
+              label: "Textrad (textbox)",
+              id: 531531,
+              value: "Node JS",
+            },
+            skillsIcons: {
+              label: "node-logo",
+              id: 530919,
+              value:
+                node,
+            },
+            id: 541524,
+          },
+
           {
             label: "skillSectionIcon",
             iconsTitles: {
@@ -628,8 +665,57 @@ export const getHome = () => async (dispatch) => {
             },
             id: 531575,
           },
+
+          {
+            label: "skillSectionIcon",
+            iconsTitles: {
+              label: "Textrad (textbox)",
+              id: 531577,
+              value: "figma",
+            },
+            skillsIcons: {
+              label: "figma-logo",
+              id: 531578,
+              value:
+                figma,
+            },
+            id: 531576,
+          },
+
+          {
+            label: "skillSectionIcon",
+            iconsTitles: {
+              label: "Textrad (textbox)",
+              id: 531578,
+              value: "firebase",
+            },
+            skillsIcons: {
+              label: "firebase-logo",
+              id: 531579,
+              value:
+                fire,
+            },
+            id: 531577,
+          },
+
+
+          {
+            label: "skillSectionIcon",
+            iconsTitles: {
+              label: "Textrad (textbox)",
+              id: 531579,
+              value: "SQlite",
+            },
+            skillsIcons: {
+              label: "sqlite-logo",
+              id: 531580,
+              value:
+                sq,
+            },
+            id: 531578,
+          },
         ],
-        id: 510892,
+        id: 510894,
       },
       contactSection: {
         label: "Contact",
