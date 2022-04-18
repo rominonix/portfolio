@@ -9,10 +9,10 @@
 
 form {
   width: 30vw;
-  background-color: rgb(0, 255, 17);
+  background-color: rgb(255, 77, 0);
   @include md-phone {
-  // padding-right: 1%;
-   width: 100vw;
+    margin-right: 1%;
+   width: 92vw;
   }
 }
 
