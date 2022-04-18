@@ -71,7 +71,13 @@
 .about-img {
   display: flex;
   justify-content: center;
+  // background-color: aqua;
+
   margin-bottom: 15%;
+  @include md-phone {
+    // background-color: aqua;
+    height: auto;
+  }
 }
 
 .image {
@@ -80,7 +86,8 @@
     width: 80%;
   }
   @include md-phone {
-    width: 75%;
+    width: 85%;
+    height: auto;
   }
 }
 
