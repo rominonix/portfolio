@@ -1,7 +1,7 @@
 @import "../../styles/ez/mediaqueries";
 
 .modal-background {
-  background-color: var(--color-green);
+  background-color: var(--color-black-transparent);
   left: 0;
   bottom: 0;
   right: 0;
@@ -27,29 +27,37 @@ video {
 }
 
 .modal-container {
-  display: grid;
-  width: 90%;
-  position: relative;
+  background-color: var(--color-violet-text);
+  padding: 5%;
+  display: flex;
+  width: 60vw;
+  // justify-content: center;
+  flex-direction: column;
+  // justify-items: center;
+  align-items: center;
+  // align-content: center;
+  // width: 300px;
+  // position: relative;
   z-index: 1;
   @include sm {
     width: 80%;
   }
-  @include md {
-    width: 80%;
-  }
+  // @include md {
+  //   width: 80%;
+  // }
   @include md-phone {
     width: 90%;
   }
 }
 
-.modal-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-content: center;
-  @include md-phone {
-    display: inline;
-  }
-}
+// .modal-grid {
+//   display: grid;
+//   grid-template-columns: repeat(2, 1fr);
+//   align-content: center;
+//   @include md-phone {
+//     display: inline;
+//   }
+// }
 
 .modal-close-button {
   margin-bottom: 2%;
@@ -58,9 +66,25 @@ video {
   align-self: flex-start;
 }
 
+.close-x {
+  background-color: var(--color-transparent);
+  border: none;
+  background-image: url("../../Svg/Icons/x.svg");
+  background-repeat: no-repeat;
+  width: 6rem;
+  height: 6rem;
+  align-self: flex-end;  
+}
+
 .modal-left {
-  display: grid;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   justify-items: center;
+  // background-color: aqua;
 }
 
 .modal-right {
@@ -70,6 +94,8 @@ video {
 
 .modal-title {
   display: flex;
+  font-weight: 300;
+  text-transform: uppercase;
 }
 
 .modal-link {
@@ -80,7 +106,9 @@ video {
 }
 
 .modal-img {
-  width: 50%;
+  margin-bottom: 2%;
+  width: 60%;
+  z-index: 2;
 }
 
 .screenshot {

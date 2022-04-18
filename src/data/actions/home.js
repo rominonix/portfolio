@@ -172,7 +172,7 @@ export const getHome = () => async (dispatch) => {
             projectSubtitle: {
               label: "Textrad (textbox)",
               id: 511156,
-              value: "Webbshop",
+              value: "Webshop",
             },
             projectImg: {
               label: "sinus2",
